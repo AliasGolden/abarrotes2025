@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .image-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+        .image-name {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Galería de 12 Imágenes</h1>
+    <p>Aquí se muestran 12 imágenes con sus respectivos nombres.</p>
+
+    <div class="container">
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 1">
+            <p class="image-name">Imagen 1</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 2">
+            <p class="image-name">Imagen 2</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 3">
+            <p class="image-name">Imagen 3</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 4">
+            <p class="image-name">Imagen 4</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 5">
+            <p class="image-name">Imagen 5</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 6">
+            <p class="image-name">Imagen 6</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 7">
+            <p class="image-name">Imagen 7</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 8">
+            <p class="image-name">Imagen 8</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 9">
+            <p class="image-name">Imagen 9</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 10">
+            <p class="image-name">Imagen 10</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 11">
+            <p class="image-name">Imagen 11</p>
+        </div>
+        <div class="image-card">
+            <img src="https://via.placeholder.com/250" alt="Imagen 12">
+            <p class="image-name">Imagen 12</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
